@@ -1,0 +1,23 @@
+@media all and (min-width: 600px) {
+    .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;	
+	}
+}
+.pageName {
+    color: white;
+}
+.intro {
+	text-align: center;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+}

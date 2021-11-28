@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Learn about Kirwin</title>
+	<!-- Icon for the tab -->
+	<link rel="shortcut icon" href="images/icon.ico">
+	<!-- Anything that isn't related to BS will be formatted here -->
+	<link rel="stylesheet" href="styles/main.css">
+    <!-- Bootstrap CSS here -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+</head>
+	<!-- Javascript Bundle with Popper (THIS IS WHAT MAKES THE MENU BUTTON WORK WHEN IT SHOWS UP)-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+<!-- Start of the website -->
+<body>
+	<div class = "container-fluid">
+		<div class = "row">
+			<div class = "row">
+				<nav class = "navbar navbar-expand-md justify-content-start bg-dark navbar-dark">
+					<!-- Logo that brings user back to home page -->
+					<a class = "navbar-brand" href="#"><img src = "images/homeicon.png" alt = "K Icon: Return Home"></a>
+					<!-- Center is my name -->
+					<div class = "navbar-nav navbar-center">
+						<p class = "navbar-brand text-white mx-auto">Kirwin Alcantara</p>
+					</div>
+					<!-- Button that should show regardless of window size but always be on the right (It doesn't now)-->
+					<button class = "navbar-toggler" type = "button" data-bs-toggle = "collapse" 
+					data-bs-target = "#collapsibleNavbar"><span class = "navbar-toggler-icon"></span></button>
+					<div class = "collapse navbar-collapse" id = "collapsibleNavbar">
+						<ul class = "navbar-nav ms-auto">
+							<li class = "nav-item"><a class = "nav-link" href = "pages/resume/resume.html">Resume</a></li>
+							<li class = "nav-item dropdown"><a class = "nav-link dropdown-toggle" href = "pages/hobbies/hobbies.html" id = "navbardrop" 
+							data-toggle = "dropdown" role = "hover" data-bs-toggle = "dropdown" aria-expanded = "false">Hobbies</a>
+								<div class = "dropdown-menu">
+									<a class = "dropdown-item" href = "pages/pc/pc.html">PC Building</a>
+									<div class="dropdown-divider"></div>
+									<a class = "dropdown-item" href = "pages/gaming/gaming.html">Gaming</a>
+								</div>
+							</li>
+							<li class = "nav-item"><a class = "nav-link" href = "pages/contact/contact.html">Contact Me</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+	<section class="intro">
+		<h2>Hey, welcome to my website! Here you will find my resume, I talk about my hobbies which includes gaming and PC building, and ways to contact me!</h2>	
+	</section>
+	<div class="container">
+		<div class = "row justify-content-evenly">
+			<div class = "col align-self-center">
+				<!-- Hobbies Card -->
+				<div class="card bg-secondary" style="width: 18rem;">
+					<div class = "card-header d-grid gap-2 col-12 mx-auto">
+						<a href="pages/hobbies/hobbies.html" class="btn btn-primary">Hobbies</a>
+					</div>
+					<div class="card-body">
+						<!--<h5 class="card-title">Hobbies</h5>-->
+						<p class="card-text text-center text-white">Go see what I do on my free time: Gaming and PC Building</p>
+					</div>
+					<img class="card-img-top text-white" src="images/hobbies.gif" alt="Hobbies GIF">
+				</div>
+			</div>
+			<div class = "col align-self-center">
+				<!-- Resume Card -->
+				<div class="card bg-secondary" style="width: 18rem;">
+					<div class = "card-header d-grid gap-2 col-12 mx-auto">
+							<a href="pages/resume/resume.html" class="btn btn-primary">Resume</a>
+					</div>
+					<div class="card-body">
+						<!--<h5 class="card-title">Resume</h5>-->
+						
+						<p class="card-text text-center text-white">See my professional resume and grab a digital copy for yourself!</p>
+					</div>
+					<img class="card-img-top text-white" src="images/resume.gif" alt="Resume GIF">
+				</div>
+			</div>
+		</div>
+		<div class = "row justify-content-center col-1 mx-auto" style="width: 18rem;">
+			<a href = "pages/contact/contact.html" class="btn btn-primary">Contact Me!</a>
+		</div>
+	</div>
+	<!--This part is the same for all pages -->
+	<footer class="footer page-footer font-small ">
+     <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; Kirwin Alcantara, 2021 |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+     </div>
+  </footer>
