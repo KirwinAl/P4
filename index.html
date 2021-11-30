@@ -21,35 +21,33 @@
 </script>
 <!-- Start of the website -->
 <body>
-	<div class = "container-fluid">
-		<div class = "row">
-			<div class = "row">
-				<nav class = "navbar navbar-expand-md justify-content-start bg-dark navbar-dark">
-					<!-- Logo that brings user back to home page -->
-					<a class = "navbar-brand" href="#"><img src = "images/homeicon.png" alt = "K Icon: Return Home"></a>
-					<!-- Center is my name -->
-					<div class = "navbar-nav navbar-center">
-						<p class = "navbar-brand text-white mx-auto">Kirwin Alcantara</p>
-					</div>
-					<!-- Button that should show regardless of window size but always be on the right (It doesn't now)-->
-					<button class = "navbar-toggler" type = "button" data-bs-toggle = "collapse" 
-					data-bs-target = "#collapsibleNavbar"><span class = "navbar-toggler-icon"></span></button>
-					<div class = "collapse navbar-collapse" id = "collapsibleNavbar">
-						<ul class = "navbar-nav ms-auto">
-							<li class = "nav-item"><a class = "nav-link" href = "pages/resume/resume.html">Resume</a></li>
-							<li class = "nav-item dropdown"><a class = "nav-link dropdown-toggle" href = "pages/hobbies/hobbies.html" id = "navbardrop" 
-							data-toggle = "dropdown" role = "hover" data-bs-toggle = "dropdown" aria-expanded = "false">Hobbies</a>
-								<div class = "dropdown-menu">
-									<a class = "dropdown-item" href = "pages/pc/pc.html">PC Building</a>
-									<div class="dropdown-divider"></div>
-									<a class = "dropdown-item" href = "pages/gaming/gaming.html">Gaming</a>
-								</div>
-							</li>
-							<li class = "nav-item"><a class = "nav-link" href = "pages/contact/contact.html">Contact Me</a></li>
-						</ul>
-					</div>
-				</nav>
-			</div>
+	<!-- Navbar Start -->
+	<nav class = "navbar justify-content-start bg-dark navbar-dark">
+		<div class = "container-fluid">
+			<!-- Logo that brings user back to home page -->
+			<a class = "navbar-brand ml-auto" href="#"><img src = "images/homeicon.png" alt = "K Icon: Return Home"></a>
+			<!-- Center is the page name -->
+			<span class = "navbar-text text-white mx-auto">Kirwin Alcantara</span>
+			<!-- Button that should show regardless of window size but always be on the right (It doesn't now)-->
+			<button class = "navbar-toggler" type = "button" data-bs-toggle = "collapse" 
+			data-bs-target = "#collapsibleNavbar"><span class = "navbar-toggler-icon"></span></button>
+				<div class = "collapse navbar-collapse" id = "collapsibleNavbar">
+					<ul class = "navbar-nav ms-auto">
+						<li class = "nav-item"><a class = "nav-link" href = "pages/resume/resume.html">Resume</a></li>
+						<li class = "nav-item dropdown"><a class = "nav-link dropdown-toggle" href = "pages/hobbies/hobbies.html" id = "navbardrop" 
+						data-toggle = "dropdown" role = "hover" data-bs-toggle = "dropdown" aria-expanded = "false">Hobbies</a>
+							<div class = "dropdown-menu">
+								<a class = "dropdown-item" href = "pages/pc/pc.html">PC Building</a>
+								<div class="dropdown-divider"></div>
+								<a class = "dropdown-item" href = "pages/gaming/gaming.html">Gaming</a>
+							</div>
+						</li>
+						<li class = "nav-item"><a class = "nav-link" href = "pages/contact/contact.html">Contact Me</a></li>
+					</ul>
+				</div>
+		</div>	
+	</nav>
+	<!-- Navbar End -->
 	<section class="intro">
 		<h2>Hey, welcome to my website! Here you will find my resume, I talk about my hobbies which includes gaming and PC building, and ways to contact me!</h2>	
 	</section>
@@ -58,7 +56,7 @@
 			<div class = "col align-self-center">
 				<!-- Hobbies Card -->
 				<div class="card bg-secondary" style="width: 18rem;">
-					<div class = "card-header d-grid gap-2 col-12 mx-auto">
+					<div class = "card-header d-grid col-12 mx-auto">
 						<a href="pages/hobbies/hobbies.html" class="btn btn-primary">Hobbies</a>
 					</div>
 					<div class="card-body">
@@ -71,7 +69,7 @@
 			<div class = "col align-self-center">
 				<!-- Resume Card -->
 				<div class="card bg-secondary" style="width: 18rem;">
-					<div class = "card-header d-grid gap-2 col-12 mx-auto">
+					<div class = "card-header d-grid col-12 mx-auto">
 							<a href="pages/resume/resume.html" class="btn btn-primary">Resume</a>
 					</div>
 					<div class="card-body">
@@ -87,6 +85,7 @@
 			<a href = "pages/contact/contact.html" class="btn btn-primary">Contact Me!</a>
 		</div>
 	</div>
+</body>
 	<!--This part is the same for all pages -->
 	<footer class="footer page-footer font-small ">
      <div class="container">
