@@ -1,0 +1,42 @@
+ <section class ="skills">
+		<h3>Skills</h3>
+		<ul id = "skillList">
+			<li>Spanish</li>
+			<li>Java</li>
+			<li>C++</li>
+			<li>Python</li>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>Windows</li>
+			<li>Software Installation</li>
+			<li>Microsoft Office</li>
+			<li>Ticketing</li>
+			<li>Cisco Networking</li>
+			<li>Virtualization</li>
+			<li>Server Installation</li>
+			<li>Active Directory</li>
+		</ul>
+	</section>
+	<section class ="experience">
+		<h3>Experience</h3>
+		<p id = "experienceLoc">
+		Oct 2019 - Sept 2021<br>
+		Part-time PC Technician<br>
+		Hudson County Community College</p>
+		<p id = "experienceDesc">
+		This job required monitoring calls and managing tickets regarding any network and 
+		computer issues that persisted on campus. Also assisted in the deployment of new 
+		workstations and equipment for events that happened on campus.</p>
+		<a id = "resumeLink" href = "KirwinResume.docx">Download a copy of my resume</a>
+	</section>
+	<section class ="education">
+		<h3>Education</h3>
+		<p id = "education1">
+		BA Computer Information Systems<br>
+		Expected Spring 2023<br>
+		New Jersey Institute of Technology</p>
+		<p id = "education2">
+		AS Computer Information Systems<br>
+		Graduated May 2019<br>
+		Essex County College</p>
+	</section>

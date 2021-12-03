@@ -1,0 +1,71 @@
+/*
+Kirwin Alcantara
+Copyrighted Code 2021
+*/
+@font-face {
+	font-family: "Manaspace";
+	src: url("../media/manaspc.ttf");
+}
+.navbar-text, .card-text, .nav-item, .nav-link, .dropdown-item, .btn, label, .intro, h3{
+	font-family: Manaspace;
+}
+@media all and (min-width: 600px) {
+	.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;	
+	}
+}
+.card-text h2 {
+	font-size: 150%;
+}
+body {
+	padding-top: 5em;
+	background-image: url("../media/homepage-bg.gif");
+	background-size: 100%;
+	background-color: white;
+	background-repeat: inherit;
+}
+.card {
+	background-color: #acacac !important;
+}
+.navbar {
+	background-color: #acacac;
+	top: 0;
+	left: 2rem;
+	width: 95%;
+	position: fixed !important;
+	z-index: 100;
+}
+.navbar-brand img {
+	height: 2em;
+	padding-left: 1em;
+	
+}
+.nav-item {
+	display: block;
+	padding-right: 1em;
+}
+.collapse {
+	width: 15%;
+}
+.dropdown-menu {
+	float: right;
+	width: fit-content;
+}
+.navbar-text {
+    color: black;
+}
+.intro {
+	text-align: center;
+}
+.footer {
+    position: fixed !important;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ababab;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+}

@@ -1,0 +1,110 @@
+<!--Kirwin Alcantara-->
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+	<meta charset = "utf-8">
+	<title>Resume - Kirwin A</title>
+	<!-- Icon for the tab -->
+	<link rel = "shortcut icon" href = "../../media/icon.png">
+	<!-- Anything that isn't related to BS will be formatted here -->
+	<link rel = "stylesheet" href = "../../styles/otherPages.css"> <!-- This is to change the bg -->
+	<link rel = "stylesheet" href = "../../styles/resume.css">
+	<link rel = "stylesheet" href = "../../styles/main.css">
+    <!-- Bootstrap CSS here -->
+	<link href = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        rel = "stylesheet"
+        integrity = "sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+        crossorigin = "anonymous">
+</head>
+	<!-- Javascript Bundle with Popper (THIS IS WHAT MAKES THE BUTTON WORK WHEN IT SHOWS UP)-->
+<script src = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity = "sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin = "anonymous">
+</script>
+<!-- Start of the website -->
+<body>
+	<!-- Navbar Start -->
+	<div class = "container-fluid">
+		<nav class = "navbar py-0 mt-4 justify-content-start navbar-light">
+			<!-- Logo that brings user back to home page -->
+			<a class = "navbar-brand ml-auto" href="../../index.html"><img src = "../../media/icon.png" alt = "K Icon: Return Home"></a>
+			<!-- Center is the page name -->
+			<span class = "navbar-text mx-auto">Resume</span>
+			<!-- Button shows on the right, but not content and it takes up the whole space-->
+			<button class = "navbar-toggler" type = "button" data-bs-toggle = "collapse" 
+			data-bs-target = "#collapsibleNavbar" ><span class = "navbar-toggler-icon"></span></button>
+				<div class = "collapse navbar-collapse text-end" id = "collapsibleNavbar">
+					<ul class = "navbar-nav">
+						<li class = "nav-item" id = "resume"><a class = "nav-link" href = "#">Resume</a></li>
+						<li class = "nav-item dropdown" id = "hobbies"><a class = "nav-link dropdown-toggle" href = "../hobbies/hobbies.html" id = "navbardrop" 
+						data-toggle = "dropdown" role = "hover" aria-expanded = "false">Hobbies</a>
+							<div class = "dropdown-menu text-center">
+								<a class = "dropdown-item" href = "../pc/pc.html">PC Building</a>
+								<div class="dropdown-divider"></div>
+								<a class = "dropdown-item" href = "../gaming/gaming.html">Gaming</a>
+							</div>
+						</li>
+						<li class = "nav-item" id = "contact"><a class = "nav-link" href = "../contact/contact.html">Contact Me</a></li>
+					</ul>
+				</div>
+		</nav>	
+	</div>
+	<!-- Navbar End -->
+	<!-- h4 can be the title of the sections and h3 can be the text at the top-->
+	<p class = "intro">I have serveral different skills and I have much more to learn. <br>
+	Down below you can download a copy of my resume if you like.</p>
+	<div class = "container-fluid">
+		<div class = "row">
+			<div class = "col-4 text-center">
+				<h3>Skills</h3>
+					<ul>
+						<li class = "skillsItem">Spanish</li>
+						<li class = "skillsItem">Java</li>
+						<li class = "skillsItem">C++</li>
+						<li class = "skillsItem">Python</li>
+						<li class = "skillsItem">HTML</li>
+						<li class = "skillsItem">CSS</li>
+						<li class = "skillsItem">Windows</li>
+						<li class = "skillsItem">Software Installation</li>
+						<li class = "skillsItem">Microsoft Office</li>
+						<li class = "skillsItem">Ticketing</li>
+						<li class = "skillsItem">Cisco Networking</li>
+						<li class = "skillsItem">Virtualization</li>
+						<li class = "skillsItem">Server Installation</li>
+						<li class = "skillsItem">Active Directory</li>
+					</ul>
+			</div>
+			<div class = "col-4 text-center">
+				<h3>Experience</h3>
+					<p class = "experienceLoc">
+					Oct 2019 - Sept 2021<br>
+					Part-time PC Technician<br>
+					Hudson County Community College</p>
+					<p class = "experienceDesc">
+					This job required monitoring calls and managing tickets regarding any network and 
+					computer issues that persisted on campus. Also assisted in the deployment of new 
+					workstations and equipment for events that happened on campus.</p>
+					<br><br><br><br>
+					<h3><a class = "resumeLink" href = "KirwinResume.docx">Download a copy of my resume</a></h3>
+			</div>
+			<div class = "col-4 text-center">
+					<h3>Education</h3>
+					<p class = "education" id = "1">
+					BA Computer Information Systems<br>
+					Expected Spring 2023<br>
+					New Jersey Institute of Technology</p>
+					<p class = "education" id = "2">
+					AS Computer Information Systems<br>
+					Graduated May 2019<br>
+					Essex County College</p>
+			</div>
+</body>
+	<!--This part is the same for all pages -->
+	<footer class="footer page-footer font-small ">
+		<div class="container">
+			<div class="row">
+				<span class="text-muted">&copy; Kirwin Alcantara, 2021 |  Terms Of Use  |  Privacy Statement</span>
+			</div>
+		</div>
+  </footer>

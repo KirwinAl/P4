@@ -1,0 +1,97 @@
+<!--Kirwin Alcantara-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Learn about Kirwin</title>
+	<!-- Icon for the tab -->
+	<link rel="shortcut icon" href="media/icon.png">
+	<!-- Anything that isn't related to BS will be formatted here -->
+	<link rel="stylesheet" href="styles/main.css">
+    <!-- Bootstrap CSS here -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+</head>
+	<!-- Javascript Bundle with Popper (THIS IS WHAT MAKES THE MENU BUTTON WORK WHEN IT SHOWS UP)-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+<!-- Start of the website -->
+<body>
+	<!-- Navbar Start -->
+	<div class = "container-fluid">
+		<nav class = "navbar py-0 mt-4 justify-content-start navbar-light">
+			<!-- Logo that brings user back to home page -->
+			<a class = "navbar-brand ml-auto" href="#"><img src = "media/icon.png" alt = "K Icon: Return Home"></a>
+			<!-- Center is the page name -->
+			<span class = "navbar-text mx-auto">Kirwin Alcantara</span>
+			<!-- Button shows on the right, but not content and it takes up the whole space-->
+			<button class = "navbar-toggler" type = "button" data-bs-toggle = "collapse" 
+			data-bs-target = "#collapsibleNavbar" ><span class = "navbar-toggler-icon"></span></button>
+				<div class = "collapse navbar-collapse text-end" id = "collapsibleNavbar">
+					<ul class = "navbar-nav">
+						<li class = "nav-item" id = "resume"><a class = "nav-link" href = "pages/resume/resume.html">Resume</a></li>
+						<li class = "nav-item dropdown" id = "hobbies"><a class = "nav-link dropdown-toggle" href = "pages/hobbies/hobbies.html" id = "navbardrop" 
+						data-toggle = "dropdown" role = "hover" aria-expanded = "false">Hobbies</a>
+							<div class = "dropdown-menu text-center">
+								<a class = "dropdown-item" href = "pages/pc/pc.html">PC Building</a>
+								<div class="dropdown-divider"></div>
+								<a class = "dropdown-item" href = "pages/gaming/gaming.html">Gaming</a>
+							</div>
+						</li>
+						<li class = "nav-item" id = "contact"><a class = "nav-link" href = "pages/contact/contact.html">Contact Me</a></li>
+					</ul>
+				</div>
+		</nav>	
+	</div>
+	<!-- Navbar End -->
+	<section class="intro" style = "padding-top: 1rem; padding-bottom: 2rem;">
+		<div class = "card mx-auto col-11">
+			<div class = "card-text text-center"><h2>Hey, welcome to my website! Here you will find my resume, 
+			I talk about my hobbies which includes gaming and PC building, and ways to contact me!<h2></div>	
+	</section>
+	<div class="container-fluid">
+		<div class = "row justify-content-evenly col-12" style="padding-top: 2rem;">			
+				<!-- Hobbies Card -->
+				<div class="card" style="width: 18rem;">
+					<div class = "card-header d-grid col-12 mx-auto">
+						<a href="pages/hobbies/hobbies.html" class="btn btn-primary">Hobbies</a>
+					</div>
+					<div class="card-body">
+						<p class="card-text text-center">Go see what I do on my free time: Gaming and PC Building</p>
+					</div>
+					<img class="card-img-top" src="media/hobbies.gif" alt="Hobbies GIF">
+				</div>
+				<!-- Resume Card -->
+				<div class="card" style="width: 18rem;">
+					<div class = "card-header d-grid col-12 mx-auto">
+							<a href="pages/resume/resume.html" class="btn btn-primary">Resume</a>
+					</div>
+					<div class="card-body">
+						<p class="card-text text-center">See my professional resume and grab a digital copy for yourself!</p>
+					</div>
+					<img class="card-img-top" src="media/resume.gif" alt="Resume GIF">
+				</div>
+		</div>
+	</div>
+	<div class = "container-fluid">
+		<div class = "row justify-content-center">
+			<!-- Contact Button -->
+			<div class = "row justify-content-center col-6 mx-auto" style="width: 18rem; padding-top: 2rem; padding-right: 1.5rem;">
+				<a href = "pages/contact/contact.html" class="btn btn-primary">Contact Me!</a>
+			</div>
+		</div>
+	</div>
+</body>
+	<!--This part is the same for all pages -->
+	<footer class="footer page-footer font-small">
+     <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; Kirwin Alcantara, 2021 |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+     </div>
+  </footer>
