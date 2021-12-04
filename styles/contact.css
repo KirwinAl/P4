@@ -2,6 +2,88 @@
 Kirwin Alcantara
 Copyrighted Code 2021
 */
-img {
-	height:48px;
+.intro {
+	font-size: 250%;
+}
+a>img {
+	height: 48px;
+	float: left;
+}
+a>span {
+	font-size: 125%;
+	padding-left: 3em;
+	
+}
+.Twitch, a>img#TwTv-Button {
+	background-color: #653da8;
+}
+a>img#TwTv-Button {
+	border-top-left-radius: 1em;
+	border-bottom-left-radius: 1em;
+}
+.Twitch {
+	margin: 0;
+	padding-top: 1px;
+	padding-bottom: 15px;
+	padding-right: 4em;
+	border: 1px solid #653da8;
+	border-top-right-radius: 1em;
+	border-bottom-right-radius: 1em;
+	position: absolute;
+}
+.YT, a>img#YT-Button {
+	background-color: #ff0000;
+}
+a>img#YT-Button {
+	border-top-left-radius: 1em;
+	border-bottom-left-radius: 1em;
+}
+.YT {
+	margin: 0;
+	padding-top: 1px;
+	padding-bottom: 15px;
+	padding-right: 3em;
+	border: 1px solid #ff0000;
+	border-top-right-radius: 1em;
+	border-bottom-right-radius: 1em;
+	position: absolute;
+}
+.Twitter, a>img#Tw-Button {
+	background-color: #50abf1;
+}
+a>img#Tw-Button {
+	border-top-left-radius: 1em;
+	border-bottom-left-radius: 1em;
+}
+.Twitter {
+	margin: 0;
+	padding-top: 1px;
+	padding-bottom: 15px;
+	padding-right: 3.82em;
+	border: 1px solid #50abf1;
+	border-top-right-radius: 1em;
+	border-bottom-right-radius: 1em;
+	position: absolute;
+}
+.LinkedIn, a>img#LI-Button {
+	background-color: #0177b5;
+}
+a>img#LI-Button {
+	border-top-left-radius: 1em;
+	border-bottom-left-radius: 1em;
+}
+.LinkedIn {
+	margin: 0;
+	padding-top: 1px;
+	padding-bottom: 15px;
+	padding-right: 3.105em;
+	border: 1px solid #0177b5;
+	border-top-right-radius: 1em;
+	border-bottom-right-radius: 1em;
+	position: absolute;
+}
+a:link {
+	display: block;
+	text-decoration: none;
+	color: white;
 }
