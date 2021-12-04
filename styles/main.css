@@ -6,7 +6,7 @@ Copyrighted Code 2021
 	font-family: "Manaspace";
 	src: url("../media/manaspc.ttf");
 }
-.navbar-text, .card-text, .nav-item, .nav-link, .dropdown-item, .btn, label, .intro, h3{
+.navbar-text, .card-text, .card-title, .nav-item, .nav-link, .dropdown-item, .btn, label, .intro, h3{
 	font-family: Manaspace;
 }
 @media all and (min-width: 600px) {

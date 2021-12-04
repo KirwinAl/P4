@@ -5,4 +5,19 @@ Copyrighted Code 2021
 
 .skillsItem {
 	list-style-type: none;
+	padding-right: 2em;
+	font-size: 110%;
+}
+
+.intro {
+	font-size: 125%;
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+h3 {
+	text-decoration: underline;
+	padding-bottom: .25em;
+}
+.experience, .education {
+	font-size: 125%;
 }

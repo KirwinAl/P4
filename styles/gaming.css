@@ -2,3 +2,10 @@
 Kirwin Alcantara
 Copyrighted Code 2021
 */
+
+.intro {
+	width: 90%;
+	padding-top: 1rem;
+	padding-left: 10rem;
+	font-size:125%;
+}

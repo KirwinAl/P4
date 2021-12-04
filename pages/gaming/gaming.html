@@ -22,6 +22,8 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous">
 </script>
+	<!-- Twitch JS for embed -->
+<script src="https://player.twitch.tv/js/embed/v1.js"></script>
 <!-- Start of the website -->
 <body>
 	<!-- Navbar Start -->
@@ -56,15 +58,31 @@
 	environment, story, etc. I talk about it all! I started playing video games back in 1999 with the SNES and the game was Street Fighter II. 
 	I play fighting games, shooters and my absolute favorite genre: RPGs! My favorite series is Kingdom Hearts!</p>
 	<div class = "container-fluid">
-		<div class = "row justify-content-around">
-			<div class = "col">
-				<h3>Here's a clip of my recent stream!</h3>
+		<div class = "row justify-content-around" style = "padding-top:2.5em;">
+			<div class = "col-6 text-center" style = "padding-left: 2rem;">
+				<h3>Here's a <abbr title = "Video on Demand">VoD</abbr> of my recent stream!</h3>
+				<br>
 				<!--Some JS from Twitch goes here-->
+				<div style="padding-bottom: 56.25%; position: relative;">
+					<iframe width="100%" height="100%" src="https://player.twitch.tv/?autoplay=false&muted=true&video=1178889735" 
+					frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"  
+					style="position: absolute; top: 0px; left: 110px; width: 75%; height: 75%;">
+					</iframe>
+				</div>
 			</div>
-			<div class = "col">
-				<h3>Here's where you can watch live!</h3>
+			<div class = "col-6 justify-content-center text-center">
+				<h3>You can watch live here!</h3>
+				<br>
 				<!--Some JS from Twitch goes here-->
+				<div style="padding-bottom: 56.25%; position: relative;">
+					<iframe width="100%" height="100%" src="https://player.twitch.tv/?autoplay=false&channel=ikirvin&muted=true" 
+					frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"  
+					style="position: absolute; top: 0px; left: 110px; width: 75%; height: 75%;">
+					</iframe>
+				</div>
 			</div>
+			<div class = "row text-center">
+				<a href = "https://www.twitch.tv/ikirvin">Click here if the video player is not working</a>
 		</div>
 	</div>
 </body>

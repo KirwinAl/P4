@@ -2,3 +2,18 @@
 Kirwin Alcantara
 Copyrighted Code 2021
 */
+
+.intro {
+	width: 90%;
+	padding-top: 1rem;
+	padding-left: 10rem;
+	padding-bottom: 3rem;
+	font-size:125%;
+}
+.card-title {
+	text-decoration: underline;
+	font-size: 150%;
+}
+.card-text {
+	font-size: 125%;
+}
